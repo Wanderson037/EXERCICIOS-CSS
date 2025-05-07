@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
         * {
             margin: 0;
             padding: 0;
@@ -26,8 +27,7 @@
         p {
             text-align: justify;
             line-height: 1.5em;
-            font-family: Arial, Helvetica, sans-serif
-            padding 20px;
+            font-family: Arial, Helvetica, sans-serif padding 20px;
         }
 
         a {
@@ -43,7 +43,7 @@
             width: 100%;
             height: 170px;
             border-bottom: 3px solid #513502;
-            border-top: 10px solid  #513502;
+            border-top: 10px solid #513502;
             background-color: #ead5a0;
         }
 
@@ -51,20 +51,22 @@
             width: 200px;
             float: left;
             padding: 10px;
+
         }
 
-        .top_dir {
+        .top_meio {
             float: left;
             text-align: center;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 100px;
-            color:  #513502;
+            color: #513502;
             padding-left: 35px;
             padding-top: 20px;
+
         }
 
         .menu_down {
-            background:  #513502;
+            background: #513502;
             height: 50px;
             text-align: center;
         }
@@ -79,40 +81,44 @@
         .clear {
             clear: both;
         }
+
         .tagesschrift-regular {
-             font-family: "Tagesschrift", system-ui;
+            font-family: "Tagesschrift", system-ui;
             font-weight: 5px;
             font-style: normal;
             font-size: 110px;
             text-align: center;
-}
-        h1{
+            margin: 0 150px 0 80px;
+
+        }
+
+        h1 {
             color: #513502;
         }
-        input{
-                    width: 20%;
-                    height: 30px;
-                    font-size: 18px;
-                    margin-bottom: 10px;
-                    background-color: aliceblue;
-                    border: solid rgb(1, 1, 1) 1.5px;
-                    border-radius: 10px;
-                    background-image: url(IMG/64673.png);
-                    background-size: 10px;
-                    background-repeat: no-repeat;
-                    background-position: top 5px right 10px;
-                    margin-top: 30px;
-                    margin-right: 20px;
-                    float: right;
-            }
-            .roda .down_down img{
-           width: 4px;
-           border-radius: 25px;
-           border: 4px rgb(78, 39, 5) dotted;
-           cursor: pointer;
-           margin: 20px;
-           padding: 5px; }
 
+        input {
+            width: 250px;
+            height: 30px;
+            font-size: 18px;
+            background-color: aliceblue;
+            border: solid rgb(1, 1, 1) 1.5px;
+            border-radius: 10px;
+            background-image: url(IMG/64673.png);
+            background-size: 10px;
+            background-repeat: no-repeat;
+            background-position: top 5px right 10px;
+            margin-right: 20px;
+
+        }
+
+        .roda .down_down img {
+            width: 4px;
+            border-radius: 25px;
+            border: 4px rgb(78, 39, 5) dotted;
+            cursor: pointer;
+            margin: 20px;
+            padding: 5px;
+        }
     </style>
 </head>
 <meta charset="UTF-8">
@@ -125,39 +131,44 @@
 <body>
     <header>
         <div class="menu_top">
-        <input class="input" type="text" name="input" placeholder="Pesquisar">
-            
+
             <div class="top_esp">
                 <figure>
                     <img src="IMG/chocolateria.jpg" alt="logo" height="140px">
                 </figure>
             </div>
-            <div class="top_dir">
+
+            <div class="top_meio">
                 <h1 class="tagesschrift-regular">Cacaotelli.</h1>
-            </div>''
-            <div class="clear"></div>
-            <div class="menu_down">
-                <nav>
-                    <span class="menu"><a href="#">HOME</a></span>
-                    <span class="menu"><a href="#">DOCES</a></span>
-                    <span class="menu"><a href="#">OVOS</a></span>
-                    <span class="menu"><a href="#">CACHOS DE UVA</a></span>
-                    <span class="menu"><a href="#">SOBRE</a></span>
-                </nav>
-                <DIV class="down_down">
-                    <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><img src="img/face_logo_02.png" alt="" width="20"></a>
-                    <a href="https://web.whatsapp.com/" target="_blank"><img src="img/whats_logo_01.png" alt="" width="20"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="img/inst_logo_01.png" alt="" width="30"></a>
-                </DIV>
-
-                <body>
-
-                </body>
             </div>
-    </header>
-    <main>
-        <div class="meio">
-           
+            <div class="top_meio">
+                <input class="input" type="text" name="input" placeholder="Pesquisar">
+            </div>
+            <div class="top_meio">
+
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><img src="img/face_logo_02.png" alt=""
+                        width="30"></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="img/whats_logo_01.png" alt=""
+                        width="3 0"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="img/inst_logo_01.png" alt=""
+                        width="30"></a>
+            </div>
+
         </div>
+    
+        <div class="clear"></div>
+        <div class="menu_down">
+        
+            <nav>
+                <span class="menu"><a href="#">HOME</a></span>
+                <span class="menu"><a href="#">DOCES</a></span>
+                <span class="menu"><a href="#">OVOS</a></span>
+                <span class="menu"><a href="#">CACHOS DE UVA</a></span>
+                <span class="menu"><a href="#">SOBRE</a></span>
+            </nav>
+        </header>
+            <div class="menu_top">
+                <img src="IMG/pascoa.jpg" alt="1000" width="100%">
+          
 
 </html>

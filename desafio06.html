@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .titulo{
+        background-color: rgb(43, 226, 107);
+        text-transform:uppercase ;
+        text-align: center;
+        padding: 30px;
+        color: white;
+    }
+    .conteudo{
+        background-image:linear-gradient(to bottom, blueviolet,blue, aquamarine)
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .item{
+        width: 20%;
+        height: 200px;
+        margin: 10px;
+        background-color: rgb(244, 241, 241);
+        flex-grow: 0;
+        flex-shrink: 1;
+        border-radius: 10px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+    }
+    .item :hover{
+        width: 30%;
+        height: 300px;
+    }
+    .itemA{
+        background-image: url(IMG/face01.png);
+        float: right;
+    }
+    .itemB{
+        background-image: url(IMG/face02.png);
+        float: left;
+    }
+    .itemC{
+        background-image: url(IMG/face03.png);
+        float: right;
+    }
+    .itemD{
+        background-image: url(IMG/face04.png);
+        float: left;
+    }
+   </style> 
+   <div class="titulo">
+    <h1>colaboradores</h1>
+   </div>
+   <div class="conteudo">
+     <div class="item itemA"></div>
+     <div class="item itemB"></div>
+     <div class="item itemC"></div>
+     <div class="item itemD"></div>
+     <div class="item itemA"></div>
+     <div class="item itemB"></div>
+     <div class="item itemC"></div>
+     <div class="item itemD"></div>
+     <div class="item itemA"></div>
+     <div class="item itemB"></div>
+     <div class="item itemC"></div>
+     <div class="item itemD"></div>
+   </div>
+</body>
+</html>
